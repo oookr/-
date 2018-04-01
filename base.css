@@ -7,7 +7,7 @@ body{
 	font-family:Sans-serif;
 	line-height: 1.5em;
 	}
-		
+	
 #nav{
 	position: absolute;
 	top: 0;
@@ -17,8 +17,8 @@ body{
 	height: 100%;
 	overflow: hidden; /* Disables scrollbars on the navigation frame. To enable scrollbars, change "hidden" to "scroll" */
 	background: gray;
-	}
-		
+}
+
 main{
 	position: fixed;
 	top: 0; 
@@ -27,32 +27,33 @@ main{
 	bottom: 0;
 	overflow: auto; 
 	background: #fff;
-	}
-		
+}
+
 .innertube{
-			margin: 15px; /* Provides padding for the content */
-			}
-		
+	margin: 15px; /* Provides padding for the content */
+}
+
 p {
 	color: #555;
-	}
-nav ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		}
-		
+}
+
+nav ul {	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
 nav ul a {
-			color: gold;
-			text-decoration: none;
-		}
-				
+	color: gold;
+	text-decoration: none;
+}
+		
 /*IE6 fix*/
 * html body{
-			padding: 0 0 0 230px; /* Set the last value to the width of the navigation frame */
-			}
-		
+	padding: 0 0 0 230px; /* Set the last value to the width of the navigation frame */
+}
+
 * html main{ 
-			height: 100%; 
-			width: 100%; 
-			}
+	height: 100%; 
+	width: 100%; 
+}
